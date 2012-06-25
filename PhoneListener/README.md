@@ -24,7 +24,7 @@ Have a problem with this extension?  [Log an Issue](https://github.com/blackberr
 
 3. Download the source from this repository and unzip it to a location on your computer
 
-4. Using File Explorer browse to this extension's downloaded source code _**Smartphone\LocationPicker**_
+4. Using File Explorer browse to this extension's downloaded source code _**webworks\phone**_
 
 5. Copy the _**library.xml**_ file from the downloaded _**webworks\phone**_ directory to your new _**ext\webworks.phone**_ directory
 
