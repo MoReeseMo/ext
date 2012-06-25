@@ -46,7 +46,6 @@ Whenever you use the below feature id in any of your WebWorks applications this 
 When an application starts, start your listener and define what function to call when a phone call occurs
    
 ## Code Example
-
     function startPhoneListener() {
       try {
             //call startListening passing the callback function
@@ -55,20 +54,18 @@ When an application starts, start your listener and define what function to call
       } catch (err) {
             document.getElementById('debug_area').innerHTML += "<br>error starting listener " + err;
       }
-}
-
-function displayMessage(phoneObject){
-      try {
-            document.getElementById('debug_area').innerHTML += "<br>phoneno: " + phoneObject.phoneno;
-            document.getElementById('debug_area').innerHTML += "<br>isoutgoing: " + phoneObject.isoutgoing;
-            document.getElementById('debug_area').innerHTML += "<br>displayphoneno: " + phoneObject.displayphoneno;
-            document.getElementById('debug_area').innerHTML += "<br>displayphoneevent: " + phoneObject.phoneevent;
-      }
-      catch (err){
-            document.getElementById('debug_area').innerHTML += "<br>error in displayMessage " + err;
-      }
-}
-
+	}
+	function displayMessage(phoneObject){
+		  try {
+				document.getElementById('debug_area').innerHTML += "<br>phoneno: " + phoneObject.phoneno;
+				document.getElementById('debug_area').innerHTML += "<br>isoutgoing: " + phoneObject.isoutgoing;
+				document.getElementById('debug_area').innerHTML += "<br>displayphoneno: " + phoneObject.displayphoneno;
+				document.getElementById('debug_area').innerHTML += "<br>displayphoneevent: " + phoneObject.phoneevent;
+		  }
+		  catch (err){
+				document.getElementById('debug_area').innerHTML += "<br>error in displayMessage " + err;
+		  }
+	}
 
 ## Disclaimer
 
